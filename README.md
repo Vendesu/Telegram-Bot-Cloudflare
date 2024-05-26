@@ -1,5 +1,4 @@
-Tentu, mari kita tambahkan beberapa emoji 🤖 untuk membuat README.md di GitHub lebih menarik! 
-
+ 
 ## 🤖 Bot Telegram Subdomain Cloudflare 🚀
 
 👋 Selamat datang di repositori Bot Telegram Subdomain Cloudflare! Bot ini membantu Anda membuat dan mengelola subdomain di Cloudflare dengan mudah, langsung dari aplikasi Telegram favorit Anda.
@@ -17,7 +16,7 @@ Tentu, mari kita tambahkan beberapa emoji 🤖 untuk membuat README.md di GitHub
 
 1.  📥 **Clone repositori ini:**
     ```bash
-    git clone https://github.com/username-anda/nama-repositori-anda.git
+    git clone https://github.com/Vendesu/Telegram-Subdomain.git
     ```
 2.  📦 **Install dependencies:**
     ```bash
@@ -27,7 +26,7 @@ Tentu, mari kita tambahkan beberapa emoji 🤖 untuk membuat README.md di GitHub
     *   Buka file `config.py` dan isi dengan informasi yang benar (token bot, token Cloudflare, dll.).
 4.  🏃 **Jalankan bot:**
     ```bash
-    python main.py
+    python3 main.py
     ```
 
 ## 🤝 Kontribusi
@@ -43,5 +42,3 @@ Proyek ini dilisensikan di bawah lisensi MIT. Lihat file `LICENSE` untuk detail 
 Terima kasih telah menggunakan Bot Telegram Subdomain Cloudflare! 😊 Jika Anda memiliki pertanyaan atau masalah, jangan ragu untuk menghubungi kami. 
 
 ---
-
-**Catatan:** Jangan lupa untuk mengganti `username-anda` dan `nama-repositori-anda` dengan informasi yang sesuai di langkah pertama instalasi.
