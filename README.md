@@ -28,13 +28,13 @@ Repositori ini berisi kode Python untuk bot Telegram yang dapat membantu Anda me
 1. **Clone repositori ini.**
 2. **Pasang dependensi:** `pip install -r requirements.txt`
 3. **Masukkan token bot Telegram Anda, informasi Cloudflare, dan domain default di bagian konfigurasi kode.**
-4. **Jalankan bot:** `python nama_file.py`
+4. **Jalankan bot:** `python3 botcf.py`
 5. **Mulai percakapan dengan bot di Telegram dan gunakan perintah `/add` untuk membuat subdomain baru.**
 
 **Penting:**
 
 * Bot ini ditujukan untuk penggunaan non-komersial dan skala kecil.
-* Jika Anda membutuhkan lebih banyak fitur dan kontrol, pertimbangkan untuk menggunakan versi premium. Hubungi @subdopremium\_bot di Telegram untuk informasi lebih lanjut.
+* Jika Anda membutuhkan lebih banyak fitur dan kontrol, pertimbangkan untuk menggunakan versi premium. Hubungi @lostwir di Telegram untuk informasi lebih lanjut.
 
 **Kontribusi:**
 
