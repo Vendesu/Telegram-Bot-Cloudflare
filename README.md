@@ -1,44 +1,45 @@
- 
-## 🤖 Bot Telegram Subdomain Cloudflare 🚀
+**Deskripsi:**
 
-👋 Selamat datang di repositori Bot Telegram Subdomain Cloudflare! Bot ini membantu Anda membuat dan mengelola subdomain di Cloudflare dengan mudah, langsung dari aplikasi Telegram favorit Anda.
+Repositori ini berisi kode Python untuk bot Telegram yang dapat membantu Anda membuat subdomain di Cloudflare dengan mudah dan gratis. Bot ini sangat cocok untuk individu atau penggunaan skala kecil yang membutuhkan solusi cepat dan sederhana.
 
-## ✨ Fitur Utama
+**Fitur Utama:**
 
-*   🎁 **Membuat Subdomain:** Buat subdomain baru dengan mudah dan cepat. Cukup berikan alamat IP dan nama subdomain yang Anda inginkan.
-*   📜 **Mengelola Subdomain:** Lihat daftar semua subdomain Anda, termasuk detail seperti IP dan status premium.
-*   ✨ **Lisensi Premium:** Dapatkan lisensi premium untuk membuka fitur tambahan seperti mengubah IP subdomain yang sudah ada.
-*   🔐 **Keamanan:** Bot ini menggunakan API Cloudflare yang aman untuk melindungi data dan subdomain Anda.
-*   🗑️ **Menghapus Subdomain:** Hapus subdomain yang tidak lagi Anda perlukan.
-*   🛠️ **(Admin) Menambah Domain:** Tambahkan domain baru untuk dikelola bot (membutuhkan hak akses admin).
+* **Pembuatan Subdomain Otomatis:** Bot akan secara otomatis membuat subdomain dengan nama acak setelah Anda memberikan alamat IP yang valid.
+* **Mudah Digunakan:** Hanya dengan beberapa perintah sederhana, Anda dapat memiliki subdomain baru dalam hitungan detik.
+* **Ringan:** Kode ini efisien dan tidak memerlukan sumber daya yang besar.
 
-## ⚙️ Instalasi & Penggunaan
+**Perbandingan Fitur:**
 
-1.  📥 **Clone repositori ini:**
-    ```bash
-    git clone https://github.com/Vendesu/Telegram-Subdomain.git
-    ```
-2.  📦 **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  📝 **Konfigurasi:**
-    *   Buka file `config.py` dan isi dengan informasi yang benar (token bot, token Cloudflare, dll.).
-4.  🏃 **Jalankan bot:**
-    ```bash
-    python3 main.py
-    ```
+| Fitur                 | Versi Gratis (Kode Ini) | Versi Premium           |
+| ----------------------- | ----------------------- | ------------------------ |
+| Pembuatan Subdomain     | ✅                       | ✅                       |
+| Edit IP Subdomain   | ❌                       | ✅                       |
+| Redeem Kode Lisensi  | ❌                       | ✅                       |
+| Batas Pembuatan Subdomain | ❌                       | ✅ (Tidak Terbatas)       |
+| Pembuatan Tiket Dukungan | ❌                       | ✅                       |
+| Penambahan Domain Baru | ❌                       | ✅ (oleh Admin)          |
+| Pembuatan Kode Lisensi | ❌                       | ✅ (oleh Admin)          |
+| Database               | ❌                       | ✅                       |
+| Threading (Peningkatan Kinerja) | ❌                       | ✅                       |
+| Kompleksitas Kode     | Rendah                  | Tinggi                   |
 
-## 🤝 Kontribusi
+**Cara Menggunakan:**
 
-💡 Punya ide atau menemukan bug? Kontribusi Anda sangat berharga! Silakan buat *pull request* atau laporkan masalah.
+1. **Clone repositori ini.**
+2. **Pasang dependensi:** `pip install -r requirements.txt`
+3. **Masukkan token bot Telegram Anda, informasi Cloudflare, dan domain default di bagian konfigurasi kode.**
+4. **Jalankan bot:** `python nama_file.py`
+5. **Mulai percakapan dengan bot di Telegram dan gunakan perintah `/add` untuk membuat subdomain baru.**
 
-## 📝 Lisensi
+**Penting:**
 
-Proyek ini dilisensikan di bawah lisensi MIT. Lihat file `LICENSE` untuk detail lebih lanjut.
+* Bot ini ditujukan untuk penggunaan non-komersial dan skala kecil.
+* Jika Anda membutuhkan lebih banyak fitur dan kontrol, pertimbangkan untuk menggunakan versi premium. Hubungi @subdopremium\_bot di Telegram untuk informasi lebih lanjut.
 
-## 🙏 Terima Kasih
+**Kontribusi:**
 
-Terima kasih telah menggunakan Bot Telegram Subdomain Cloudflare! 😊 Jika Anda memiliki pertanyaan atau masalah, jangan ragu untuk menghubungi kami. 
+Kontribusi dan saran sangat diterima! Silakan buat *pull request* atau laporkan masalah jika Anda menemukannya.
 
----
+**Lisensi:**
+
+Kode ini dirilis di bawah lisensi MIT. Lihat file `LICENSE` untuk detail lebih lanjut.
