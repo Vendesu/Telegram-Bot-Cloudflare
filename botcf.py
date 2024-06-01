@@ -7,11 +7,11 @@ import random
 import string
 
 # Konfigurasi Bot dan Cloudflare
-TELEGRAM_TOKEN = "TELEGRAM_TOKEN_MU"
-DEFAULT_DOMAIN = "DEFAULT_DOMAIN_MU"
-CLOUDFLARE_EMAIL = "CLOUDFLARE_EMAIL_MU"
-CLOUDFLARE_TOKEN = "CLOUDFLARE_TOKEN_MU"
-CLOUDFLARE_ZONE_ID = "CLOUDFLARE_ZONE_ID_MU"
+TELEGRAM_TOKEN = "7127570979:AAHY7ATgQc79AbRSHDtm-Tc5c3x3Wx267YQ"
+DEFAULT_DOMAIN = "infinityxssh.com"
+CLOUDFLARE_EMAIL = "pendetot@gmail.com"
+CLOUDFLARE_TOKEN = "30998e06f35cc33413dc8ec97f94d4297a39a"
+CLOUDFLARE_ZONE_ID = "ea20bb7f4ea2be997d483c710c4642c3"
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
@@ -125,7 +125,7 @@ def buat_subdomain(message, ip, subdomain_name):
 
 
 # Handler untuk pesan yang bukan perintah
-@bot.message_handler(func=lambda message: True)
+@bot.message_handler(func=lambda message: message.text.startswith('/'))
 def handle_message(message):
     """Menangani pesan yang bukan perintah."""
     bot.send_message(
