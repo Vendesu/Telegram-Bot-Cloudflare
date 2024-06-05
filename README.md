@@ -18,7 +18,7 @@ Repositori ini berisi kode Python untuk bot Telegram yang memudahkan pembuatan s
 
 **Komunitas**
 
-* Kanal Telegram: t.me/codeplanetch
+* Chanel Telegram: t.me/codeplanetch
 * Pemilik: t.me/bukanaol
 
 **Kontribusi**
