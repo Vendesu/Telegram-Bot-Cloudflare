@@ -7,11 +7,11 @@ import random
 import string
 
 # Konfigurasi Bot dan Cloudflare
-TELEGRAM_TOKEN = "-"
-DEFAULT_DOMAIN = "-"
-CLOUDFLARE_EMAIL = "-"
-CLOUDFLARE_TOKEN = "-"
-CLOUDFLARE_ZONE_ID = "-"
+TELEGRAM_TOKEN = "7127570979:AAHY7ATgQc79AbRSHDtm-Tc5c3x3Wx267YQ"
+DEFAULT_DOMAIN = "infinityxssh.com"
+CLOUDFLARE_EMAIL = "pendetot@gmail.com"
+CLOUDFLARE_TOKEN = "30998e06f35cc33413dc8ec97f94d4297a39a"
+CLOUDFLARE_ZONE_ID = "ea20bb7f4ea2be997d483c710c4642c3"
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
