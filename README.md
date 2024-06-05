@@ -1,6 +1,6 @@
 **Deskripsi:**
 
-Repositori ini berisi kode Python untuk bot Telegram yang dapat membantu Anda membuat subdomain di Cloudflare dengan mudah dan gratis. Bot ini sangat cocok untuk individu atau penggunaan skala kecil yang membutuhkan solusi cepat dan sederhana.
+Repositori ini berisi kode Python untuk bot Telegram yang dapat membantu Anda membuat subdomain di Cloudflare dengan mudah.
 
 **Fitur Utama:**
 
@@ -8,20 +8,6 @@ Repositori ini berisi kode Python untuk bot Telegram yang dapat membantu Anda me
 * **Mudah Digunakan:** Hanya dengan beberapa perintah sederhana, Anda dapat memiliki subdomain baru dalam hitungan detik.
 * **Ringan:** Kode ini efisien dan tidak memerlukan sumber daya yang besar.
 
-**Perbandingan Fitur:**
-
-| Fitur                 | Versi Gratis (Kode Ini) | Versi Premium           |
-| ----------------------- | ----------------------- | ------------------------ |
-| Pembuatan Subdomain     | ✅                       | ✅                       |
-| Edit IP Subdomain   | ❌                       | ✅                       |
-| Redeem Kode Lisensi  | ❌                       | ✅                       |
-| Batas Pembuatan Subdomain | ❌                       | ✅ (Tidak Terbatas)       |
-| Pembuatan Tiket Dukungan | ❌                       | ✅                       |
-| Penambahan Domain Baru | ❌                       | ✅ (oleh Admin)          |
-| Pembuatan Kode Lisensi | ❌                       | ✅ (oleh Admin)          |
-| Database               | ❌                       | ✅                       |
-| Threading (Peningkatan Kinerja) | ❌                       | ✅                       |
-| Kompleksitas Kode     | Rendah                  | Tinggi                   |
 
 **Cara Menggunakan:**
 
