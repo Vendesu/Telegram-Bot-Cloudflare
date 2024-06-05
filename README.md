@@ -16,6 +16,19 @@ Repositori ini berisi kode Python untuk bot Telegram yang memudahkan pembuatan s
 4. **Jalankan bot:** `python3 botcf.py`
 5. **Mulai percakapan dengan bot di Telegram dan gunakan perintah `/add` untuk membuat subdomain baru.**
 
+
+**Untuk Panel Pterodactyl**
+Dikarenakan terdapat bug tidak seperti menggunakan vps, maka saat script berjalan dan diminta untuk mengisi data dengan urutan seperti ini
+
+Masukkan Token Telegram Anda: 
+Masukkan domain default Anda: 
+Masukkan email Cloudflare Anda: 
+Masukkan token Cloudflare Anda: 
+Masukkan ID zona Cloudflare Anda: 
+Masukkan ID channel Telegram Anda:
+
+Kalian hanya tinggal memasukan data saja urutannya seperti di atas
+
 **Komunitas**
 
 * Chanel Telegram: t.me/codeplanetch
