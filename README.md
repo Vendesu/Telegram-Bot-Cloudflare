@@ -17,10 +17,10 @@ Repositori ini berisi kode Python untuk bot Telegram yang dapat membantu Anda me
 4. **Jalankan bot:** `python3 botcf.py`
 5. **Mulai percakapan dengan bot di Telegram dan gunakan perintah `/add` untuk membuat subdomain baru.**
 
-**Penting:**
+**Komunitas:**
 
-* Bot ini ditujukan untuk penggunaan non-komersial dan skala kecil.
-* Jika Anda membutuhkan lebih banyak fitur dan kontrol, pertimbangkan untuk menggunakan versi premium. Hubungi @lostwir di Telegram untuk informasi lebih lanjut.
+Link Chanel : t.me/codeplanetch
+Link owner : t.me/bukanaol
 
 **Kontribusi:**
 
