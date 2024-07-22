@@ -31,8 +31,7 @@ Karena terdapat bug yang berbeda dengan penggunaan VPS, saat skrip berjalan dan 
 
 **Komunitas**
 
-*   Channel Telegram: t.me/codeplanetch
-*   Pemilik: t.me/bukanaol
+*   Pemilik: t.me/akiradigitalstore
 
 **Kontribusi**
 
