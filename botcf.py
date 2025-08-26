@@ -99,8 +99,7 @@ def create_donation_keyboard():
     """Create donation keyboard."""
     keyboard = InlineKeyboardMarkup()
     keyboard.row(
-        InlineKeyboardButton("🌐 Donasi Domain", callback_data="donate_domain"),
-        InlineKeyboardButton("💰 Donasi Uang", callback_data="donate_money")
+        InlineKeyboardButton("🌐 Donasi Domain", callback_data="donate_domain")
     )
     keyboard.row(
         InlineKeyboardButton("📋 Lihat Donasi", callback_data="view_donations"),
@@ -203,8 +202,6 @@ Terima kasih atas ketertarikan Anda untuk berdonasi! 🙏
 
 **Apa yang bisa didonasikan:**
 • 🌐 Domain yang sudah tidak digunakan
-• 💰 Donasi uang untuk pengembangan bot
-• 🚀 VPS/Server untuk hosting
 
 **Keuntungan berdonasi:**
 ✅ Akses fitur premium
@@ -289,7 +286,7 @@ def handle_help(message):
 • Group: @codeplanethelper
 
 **Fitur Donasi:**
-Gunakan menu "🎁 Donasi Domain" untuk berkontribusi!
+Gunakan menu "🎁 Donasi Domain" untuk mendonasikan domain yang tidak terpakai!
 """
     bot.send_message(
         message.chat.id,
@@ -435,14 +432,7 @@ def handle_callback_query(call):
         )
         user_states[call.message.chat.id] = "waiting_for_domain_donation"
         
-    elif call.data == "donate_money":
-        bot.answer_callback_query(call.id)
-        bot.send_message(
-            call.message.chat.id,
-            "💰 **Donasi Uang**\n\nUntuk donasi uang, silakan hubungi owner langsung:\n\n👤 **Owner:** @bukanaol\n💬 **Chat:** t.me/bukanaol\n\nOwner akan memberikan informasi rekening atau e-wallet yang tersedia.",
-            parse_mode='Markdown'
-        )
-        
+
     elif call.data == "view_donations":
         bot.answer_callback_query(call.id)
         if domain_donations:
@@ -565,7 +555,7 @@ def send_status_update():
 **Mau bikin subdomain gratis?** 
 Klik "🚀 Buat Subdomain" atau ketik /add
 
-**Ingin berdonasi?**
+**Ingin berdonasi domain?**
 Klik "🎁 Donasi Domain" untuk berkontribusi!
 
 **Support:** @bukanaol

@@ -12,7 +12,7 @@
 
 #### 🌐 **Sistem Donasi Domain**
 - Platform donasi domain untuk komunitas
-- Support donasi domain, uang, dan server/VPS
+- Support donasi domain
 - Tracking dan monitoring donasi
 - Notifikasi otomatis ke channel donasi
 - Status tracking: Pending, Approved, Rejected, Completed

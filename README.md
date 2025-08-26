@@ -19,8 +19,6 @@ Bot Cloudflare Pro adalah bot Telegram canggih yang memudahkan pembuatan dan pen
 
 ### 🎁 **Sistem Donasi Domain**
 - 🌐 Donasi domain yang tidak terpakai
-- 💰 Donasi uang untuk pengembangan
-- 🚀 Donasi server/VPS
 - 📋 Tracking dan monitoring donasi
 
 ### 🔒 **Keamanan & Monitoring**
@@ -121,7 +119,6 @@ Bot akan meminta informasi berikut:
 1. Klik **🎁 Donasi Domain**
 2. Pilih jenis donasi:
    - 🌐 Donasi Domain
-   - 💰 Donasi Uang
    - 📋 Lihat Donasi
 3. Ikuti instruksi yang diberikan
 

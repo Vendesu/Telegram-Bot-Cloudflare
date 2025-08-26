@@ -84,9 +84,7 @@ HELP_SECTIONS = {
 
 # Donation System Configuration
 DONATION_TYPES = {
-    "domain": "🌐 Donasi Domain",
-    "money": "💰 Donasi Uang",
-    "server": "🚀 Donasi Server/VPS"
+    "domain": "🌐 Donasi Domain"
 }
 
 DONATION_STATUSES = {
