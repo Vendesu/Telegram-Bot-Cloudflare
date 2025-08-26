@@ -200,16 +200,19 @@ def handle_donation_menu(message):
 
 Terima kasih atas ketertarikan Anda untuk berdonasi! 🙏
 
-**Apa yang bisa didonasikan:**
-• 🌐 Domain yang sudah tidak digunakan
+**Cara berdonasi domain:**
+• 🌐 Hubungkan domain Anda ke nameserver Cloudflare kami
+• 🔗 Domain akan aktif dan bisa digunakan untuk subdomain
+• 🚀 Anda tetap memiliki kontrol penuh atas domain
 
 **Keuntungan berdonasi:**
 ✅ Akses fitur premium
 ✅ Prioritas support
 ✅ Nama Anda di hall of fame
 ✅ Kontribusi untuk komunitas
+✅ Domain tetap milik Anda
 
-Silakan pilih opsi donasi di bawah: ⬇️
+Silakan pilih opsi di bawah: ⬇️
 """
     bot.send_message(
         message.chat.id,
@@ -286,7 +289,7 @@ def handle_help(message):
 • Group: @codeplanethelper
 
 **Fitur Donasi:**
-Gunakan menu "🎁 Donasi Domain" untuk mendonasikan domain yang tidak terpakai!
+Gunakan menu "🎁 Donasi Domain" untuk menghubungkan domain ke nameserver Cloudflare kami!
 """
     bot.send_message(
         message.chat.id,
@@ -427,7 +430,7 @@ def handle_callback_query(call):
         bot.answer_callback_query(call.id)
         bot.send_message(
             call.message.chat.id,
-            "🌐 **Donasi Domain**\n\nSilakan masukkan domain yang ingin didonasikan:\n\nFormat: example.com atau sub.example.com\n\nBot akan memverifikasi domain tersebut.",
+            "🌐 **Donasi Domain**\n\nSilakan masukkan domain yang ingin dihubungkan ke nameserver Cloudflare kami:\n\nFormat: example.com atau sub.example.com\n\nBot akan memberikan instruksi nameserver yang perlu diatur.",
             parse_mode='Markdown'
         )
         user_states[call.message.chat.id] = "waiting_for_domain_donation"
@@ -484,14 +487,18 @@ def handle_domain_donation(message):
 🎁 **Terima Kasih atas Donasi Domain!** 🙏
 
 **Domain:** `{domain}`
-**Status:** Pending Review
+**Status:** Pending Nameserver Setup
 **Tanggal:** {datetime.now().strftime('%d %B %Y, %H:%M:%S')}
 
-**Proses selanjutnya:**
-1. ✅ Domain akan diverifikasi oleh owner
-2. 🔍 Pengecekan kepemilikan domain
-3. 🚀 Setup dan konfigurasi
-4. 🎉 Domain siap digunakan komunitas!
+**Langkah selanjutnya:**
+1. 🔧 Atur nameserver domain Anda ke Cloudflare
+2. 📧 Kirim bukti screenshot ke owner
+3. ✅ Owner akan verifikasi dan setup
+4. 🚀 Domain siap digunakan untuk subdomain!
+
+**Nameserver yang perlu diatur:**
+• ns1.cloudflare.com
+• ns2.cloudflare.com
 
 **Owner akan menghubungi Anda segera untuk proses selanjutnya.**
 
@@ -509,7 +516,7 @@ def handle_domain_donation(message):
     try:
         bot.send_message(
             DONATION_CHANNEL_ID,
-            f"🎁 **Donasi Domain Baru!**\n\n🌐 Domain: `{domain}`\n👤 Donor: @{message.from_user.username or 'Unknown'}\n🆔 User ID: {message.from_user.id}\n⏰ Tanggal: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}\n\nSilakan review domain ini!",
+            f"🎁 **Donasi Domain Baru!**\n\n🌐 Domain: `{domain}`\n👤 Donor: @{message.from_user.username or 'Unknown'}\n🆔 User ID: {message.from_user.id}\n⏰ Tanggal: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}\n\nStatus: Menunggu setup nameserver Cloudflare",
             parse_mode='Markdown'
         )
     except:
@@ -556,7 +563,7 @@ def send_status_update():
 Klik "🚀 Buat Subdomain" atau ketik /add
 
 **Ingin berdonasi domain?**
-Klik "🎁 Donasi Domain" untuk berkontribusi!
+Klik "🎁 Donasi Domain" untuk menghubungkan domain ke nameserver kami!
 
 **Support:** @bukanaol
 """
